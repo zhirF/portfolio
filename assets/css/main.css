@@ -3952,13 +3952,16 @@ input, select, textarea {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
-		display: flex;
+		display:flex;
 		background-color: #f5f5f5;
 		color: #909498;
 		cursor: default;
-		position: relative;
+		position:relative;
+		bottom: 0%;
+		text-align: center;
 		margin: 0 auto;
 		width: calc(100% - 4rem);
+		min-width: 72rem;
 		max-width: 72rem;
 		z-index: 2;
 	}
